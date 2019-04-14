@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/crane"
+    android:backgroundTint="@color/colorPrimaryDark"
+    android:backgroundTintMode="screen"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rasam.origamihimitsu.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        tools:ignore="UselessParent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp">
+
+
+        <LinearLayout
+            android:layout_width="810dp"
+            android:layout_height="306dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            tools:ignore="UselessLeaf">
+
+            <TextView
+                android:id="@+id/welcomeTxt"
+                android:layout_width="326dp"
+                android:layout_height="0dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingTop="170dp"
+                android:text="@string/welcome"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="36sp"
+                android:layout_weight="0.70" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/pinInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="@string/enter_your_pin"
+            android:inputType="number|numberPassword"
+            android:textAlignment="center"
+            android:textColorHint="@color/secure"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_SignIn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.43"
+            android:alpha="0.5"
+            android:background="@color/secure"
+            android:elegantTextHeight="true"
+            android:fadingEdge="none"
+            android:fontFamily="sans-serif-smallcaps"
+            android:outlineProvider="background"
+            android:text="SUBMIT"
+            android:textColor="@color/light"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/createPIN"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.45"
+            android:alpha="0.5"
+            android:background="@color/blue2"
+            android:elegantTextHeight="true"
+            android:fadingEdge="none"
+            android:fontFamily="sans-serif-smallcaps"
+            android:outlineProvider="background"
+            android:text="Create PIN"
+            android:textColor="@color/light"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

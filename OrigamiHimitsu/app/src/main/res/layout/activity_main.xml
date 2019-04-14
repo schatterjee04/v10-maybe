@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorPrimary"
+    android:backgroundTintMode="screen"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:ignore="UselessParent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="66dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+
+            android:layout_weight="1.27"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/choose_your_messaging_app"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent2"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="444dp"
+            android:layout_weight="1.09"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btnSMS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:alpha="0.7"
+                android:background="@color/light"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/sms"
+                android:textSize="30sp"
+                tools:ignore="NestedWeights" />
+
+            <Button
+                android:id="@+id/btnWhatsapp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:alpha="0.7"
+                android:background="@color/secure"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/whatsapp"
+                android:textColor="@color/colorAccent2"
+                android:textSize="30sp"
+                tools:ignore="NestedWeights" />
+
+            <Button
+                android:id="@+id/btnTelegram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:alpha="0.7"
+                android:background="@color/blue2"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/telegram"
+                android:textColor="@color/light"
+                android:textSize="30sp"
+                tools:ignore="NestedWeights" />
+
+            <Button
+                android:id="@+id/btnSignal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:alpha="0.7"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/signal"
+                android:textColor="@color/light"
+                android:textSize="30sp"
+                tools:ignore="NestedWeights" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

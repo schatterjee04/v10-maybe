@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Origami Himitsu</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_messenger">Messenger</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint">Write a message</string>
+    <string name="title_activity_login">Origami Himitsu</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+
+
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="button">Button</string>
+    <string name="select_your_contact">Select your contact:</string>
+    <string name="enter_message">Enter Your Secure Message Here</string>
+    <string name="messages">Your Secure Messages Here</string>
+    <string name="send">Send</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="enter_your_secure_message">Enter your secure message</string>
+    <string name="sign_in">SUBMIT</string>
+    <string name="choose_your_messaging_app">Select an App</string>
+    <string name="sms">SMS</string>
+    <string name="signal">Signal</string>
+    <string name="telegram">Telegram</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="enter_your_pin">Enter your pin</string>
+    <string name="enter_your_pin_below">Enter your PIN below:</string>
+    <string name="welcome">Welcome</string>
+    <string name="title_activity_qr__gen">QR_Gen</string>
+
+</resources>

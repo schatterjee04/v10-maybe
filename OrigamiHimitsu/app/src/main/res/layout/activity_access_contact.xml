@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue2"
+    android:backgroundTintMode="screen"
+    tools:context="com.example.rasam.origamihimitsu.AccessContact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:backgroundTint="@color/pop"
+        android:backgroundTintMode="screen"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"></LinearLayout>
+
+    <TextView
+        android:id="@+id/textContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Select Your Contact:"
+        android:textAlignment="gravity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/pop"
+        android:textIsSelectable="true"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:alpha="0.8"
+        android:background="@color/secure"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="SEARCH CONTACTS"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        android:layout_above="@+id/btn_QRgen"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_QRgen"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:alpha="0.8"
+
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Share Keys"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:ignore="HardcodedText,UnknownId" />
+
+</RelativeLayout>
